@@ -1,0 +1,5 @@
+# Given Name Age Country City
+#  Asabeneh 250 Finland Helsinki
+
+seq = "Name\tAge\tCountry\tCity\nAsabeneh\t250\tFinland\tHelsinki"   # Writing the sequence in the way we would like to get the output
+print(seq)                                                           # Printing the output
