@@ -1,0 +1,4 @@
+# Given radius = 10
+radius = 10                                     # Given radius = 10
+area = 3.14 * radius ** 2                       # Finding the area
+print("The area of a circle with radius {} is {} meters square.".format(radius, int(area)))   # Printing the string using the formatting string method
