@@ -1,0 +1,9 @@
+sisters = ("Sowmya", "Ramya", "Satya", "Keerthana", "Sirisha", "Suma")  # Created a tuple with names of sisters
+brothers = ("Manideep", "Durga", "Ani", "Dinesh")                       # Created a tuple with names of brothers
+siblings = sisters + brothers                                           # Joined two tuples into a siblings tuple
+print(siblings)                                                         # Printing the siblings tuple
+len1 = len(siblings)                                                    # Counting the number of siblings I have
+print(len1)                                                             # Printing the number of siblings I have
+family_members = siblings + ("Prasad Lanke", "Lakshmi Lanke",)          # Modifying & Adding my father and mother names
+print(family_members)                                                   # Printing the family members tuple
+
