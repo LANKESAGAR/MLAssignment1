@@ -1,0 +1,43 @@
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}    # Created it_companies set
+A = {19, 22, 24, 20, 25, 26}                                                              # Created A set
+B = {19, 22, 20, 25, 26, 24, 28, 27}                                                      # Created B set
+age = [22, 19, 24, 25, 26, 24, 25, 24]                                                    # Created age set
+len1 = len(it_companies)                                                 # Finding the length of the it_companies set
+print(len1)                                                              # Printing the length of the it_companies set
+it_companies.add("Twitter")                                              # Added twitter to it_companies
+print(it_companies)                                                      # Printing the it_companies
+it_companies1 = {"TCS", "Accenture", "Infosys", "Deloitte", "Wipro", "Cap Gemini"}    # Creating multiple it_companies1 set
+it_companies.update(it_companies1)                               # Inserting multiple it_companies1 set to it_companies
+print(it_companies)                                                             # Printing it_companies after inserting
+it_companies.remove("Accenture")                                                # Removing one company from it_companies
+print(it_companies)                                                             # Printing after removing
+
+#difference between remove and discard is in remove() method it will raise an error if the specified item does not exist, and the discard() method will not.
+
+#For suppose if you in the line 12 I have removed an item "Accenture" if I remove again the same item the remove method will raise and error
+
+#it_companies.remove("Accenture")
+
+#Now I use discard method to remove the Accenture item which is removed earlier using remove method it will not raise an error.
+
+#it_companies.discard("Accenture")
+
+print(A.union(B))                                              # Joining A and B
+print(A.intersection(B))                                       # Finding A intersection B
+print(A.issubset(B))                                           # Finding whether A is subset of B
+print(A.isdisjoint(B))                                         # Finding whether A and B are disjoint sets
+print(A.union(B))                                              # Joining A with B
+print(B.union(A))                                              # Joining B with A
+print(A.symmetric_difference(B))                               # Finding the symmetric difference between A and B
+A.clear()                                                      # Deleting the set A completely
+print(A)                                                       # Checking whether it is deleted or not
+B.clear()                                                      # Deleting the set B completely
+print(B)                                                       # Checking whether it is deleted or not
+ageset = set(age)                                              # Converting the list to set
+print(ageset)                                                  # Printing the converted set
+listlen = len(age)                                             # Finding the length of the list
+print(listlen)                                                 # Printing the length of the list
+setlen = len(ageset)                                           # Finding the length of the set
+print(setlen)                                                  # Printing the length of the set
+
+# length of the set is less than the length of the list since in set duplicate elements will be removed
