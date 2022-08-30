@@ -1,0 +1,24 @@
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]   # List of 10 Student Ages
+print(ages)                                       # printing the ages list
+ages.sort()                                       # sorting the Student ages
+print(ages)                                       # printing the Sorted student ages list
+a = min(ages)                                     # Finding the min of ages and storing it in Variable a
+b = max(ages)                                     # Finding the min of ages and storing it in Variable b
+print(a)                                          # Printing the value stored in variable a
+print(b)                                          # Printing the value stored in variable b
+ages.append(a)                                    # Adding the min value to the list
+print(ages)                                       # printing the ages list
+ages.append(b)                                    # Adding the max value to the list
+print(ages)                                       # printing the ages list
+c = len(ages)                                     # Finding the length of the list
+print(c)                                          # Printing the length
+d = (c-1)//2                                      # Finding the floor division
+print(d)                                          # Printing the value of d
+median1 = (ages[d] + ages[d+1])/2                 # Finding the median
+print(median1)                                    # Printing the median value
+sum1 = sum(ages)                                  # Finding the sum of ages
+print(sum1)                                       # Printing the sum of ages
+avg = sum1/c                                      # Finding the average
+print(avg)                                        # Printing the average
+range1 = b-a                                      # Finding the range
+print(range1)                                     # Printing the range
