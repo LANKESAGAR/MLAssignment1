@@ -1,0 +1,28 @@
+dog = dict()                                          # Created an empty dog dictionary
+dog["name"] = "German Shepherd"                       # Adding name of the dog
+dog["color"] = "Brown"                                # Adding color of the dog
+dog["breed"] = " Deutsche Schafer's"                  # Adding Breed of the dog
+dog["legs"] = 4                                       # Adding no of legs of the dog
+dog["age"] = 5                                        # Adding age of the dog
+print(dog)                                            # Printing the dog dictionary
+
+student = dict()                                                # Creating an empty student dictionary
+student["first_name"] = "SAGAR"                                 # Adding firstname to the student dictionary
+student["last_name"] = "LANKE"                                  # Adding lastname to the student dictionary
+student["gender"] = "Male"                                      # Adding gender to the student dictionary
+student["age"] = 23                                             # Adding age to the student dictionary
+student["marital status"] = "Single"                            # Adding marital status to the student dictionary
+student["skills"] = ["C", "Java", "Python"]                     # Adding skills to the student dictionary
+student["country"] = "USA"                                      # Adding country to the student dictionary
+student["city"] = "Overland Park"                               # Adding city to the student dictionary
+student["address"] = "140th Street, Sandstone creek Apt"        # Adding address to the student dictionary
+print(student)                                                  # Printing student dictionary
+len1 = len(student)                                             # Finding the length of the student dictionary
+print(len1)                                                     # Printing the length of the student dictionary
+print(student["skills"])                                        # Getting the skills in the list format
+print(type(student["skills"]))                                  # Printing the type of the student skills
+student["skills"].extend(["Machine Learning", "AI", "DBMS"])    # Modifying the skills values of the student dictionary
+print(student["skills"])                                        # Printing the skills of the student dictionary
+print(student.keys())                                           # Printing the student dictionary keys as a list
+print(student.values())                                         # Printing the student dictionary values as a list
+
