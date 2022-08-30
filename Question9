@@ -1,0 +1,7 @@
+studentweightslist = list()                     # Creating an empty student weights list
+N = int(input("Enter number of students"))      # Reading the number of students input from user
+for i in range(N):                              # Running a for loop
+    studentweights = float(input("Enter the weight of Student of student " + str(i+1)))     # Taking the student weights in lbs from user
+    studentweightslist.append(studentweights*0.453592)                                      # Converting weights in kgs and appending them to the list
+studentWeightsListWithPrecision = ['%.2f' % elem for elem in studentweightslist]   # Converting Student weight list to list with 2 decimal places
+print(studentWeightsListWithPrecision)      # Printing the student weights in kgs with 2 decimal places
